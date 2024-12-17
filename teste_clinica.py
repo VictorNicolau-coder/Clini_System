@@ -1,7 +1,7 @@
-from paciente import paciente
-from medico import medico
-from consulta import consulta
-from notafiscal import notafiscal
+from classes.paciente import paciente
+from classes.medico import medico
+from classes.consulta import consulta
+from classes.notafiscal import notafiscal
 
 paciente1 = paciente(1, "Amanda Lira", 29, "88999999999", "Rua Alta, 55")
 paciente2 = paciente(2, "Graziella Mendes", 18, "88988888888", "Av. Brasil, 123")
